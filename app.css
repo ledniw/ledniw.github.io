@@ -141,6 +141,8 @@ footer .copyright{
 
 .services a:hover .box {
   -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
   background: #00b6e6;
   color:#fff;
   border-radius: 50%;
@@ -152,6 +154,7 @@ footer .copyright{
   -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;  
 }
 
@@ -160,6 +163,7 @@ footer .copyright{
   -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
 
@@ -167,5 +171,6 @@ footer .copyright{
   -webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
 }
