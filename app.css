@@ -90,7 +90,6 @@ h5{
   height: 55px;
 }
 
-
 .services li>a {
     color: #777777;
     text-decoration: none;
@@ -98,10 +97,14 @@ h5{
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
     -o-transition: 0.4s;
-    transition: 0.4s;   
+    transition: 0.4s; 
+}
 
+.contact-map {
+  margin: 40px 0;
 
 }
+
 
 footer{
   margin-top: 5em;
